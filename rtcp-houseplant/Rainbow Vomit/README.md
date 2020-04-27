@@ -29,6 +29,7 @@ After some trial and error and lots of print statements I was presented with the
 there is such as thing as a tomcat but have you ever heard of a tomdog. this is the most important ?uestion of our time, and unfortunately one that may never be answered by modern science. the definition of tomcat is a male cat, yet the name for a male dog is max. wait no. the name for a male dog is just dog. regardless, what would happen if we were to combine a male dog with a tomcat. perhaps wed end up with a dog that vomits out flags, like this one rtcp should,fl5g4,b3,st1cky,or,n0t
 ```
 the solution could be figured out with the last sentence. Maybe I should've started there. ;)
+
 *rtcp{should,fl5g4,b3,st1cky,or,n0t}*
 
 
