@@ -15,7 +15,7 @@ Dev: Tom
 
 output.png looked like this
 
-![alt text](https:// "output.png")
+[![](https://github.com/blinkingthing/ctfs/blob/master/rtcp-houseplant/Rainbow%20Vomit/output.png "output.png")](#)
 
 This scrambled colorful mess looked like similair to piet but the hint references encoding by Josh Cramer. Searching Josh Cramer encoding yielded [hexahue](https://www.geocachingtoolbox.com/index.php?lang=en&page=hexahue). An alphabet substituted by sets of colored rectangles. Each rectangle is a different 2x3 containing 6 pixels with a different combination of red, green, blue, cyan, magenta and yellow pixels for each letter. There is also some grayscale for punctuation, numbers and spaces. 
 
