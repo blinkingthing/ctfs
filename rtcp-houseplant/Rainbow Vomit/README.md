@@ -30,7 +30,7 @@ there is such as thing as a tomcat but have you ever heard of a tomdog. this is 
 ```
 the solution could be figured out with the last sentence. Maybe I should've started there. ;)
 
-*rtcp{should,fl5g4,b3,st1cky,or,n0t}*
+*rtcp{should_fl5g4_b3_st1cky_or_n0t}*
 
 
 
