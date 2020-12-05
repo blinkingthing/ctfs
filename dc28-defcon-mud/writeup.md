@@ -123,7 +123,7 @@ I was in the lead for the beginning of the MUD when it went live but then needed
 </p>
 
 #### Shouts
-Big thankyou to Evil Mod for putting in the time to make this MUD available for Defcon safemode. I'm hoping to learn more about the back-end of the game and implement new features throughout the year and possibly for further iterations of the MUD at future con's. Shout out to @babint for helping me think through the depth first search stuff as well probing multiple things in the MUD and Mudlet in general. Finally, shout out to vimk1ng and Shadyman for the solid competition and congratulations to vimk1ng on winning the speed run contest. (Yes, there were speed run competitions)
+Big thankyou to EvilMog for putting in the time to make this MUD available for Defcon safemode. I'm hoping to learn more about the back-end of the game and implement new features throughout the year and possibly for further iterations of the MUD at future con's. Shout out to @babint for helping me think through the depth first search stuff as well probing multiple things in the MUD and Mudlet in general. Finally, shout out to vimk1ng and Shadyman for the solid competition and congratulations to vimk1ng on winning the speed run contest. (Yes, there were speed run competitions)
 
 ## Maps
 I'd like to make some better maps, but these may be able to help. At the very least they illustrated the complexity of these areas. 
