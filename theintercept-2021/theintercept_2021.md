@@ -633,7 +633,7 @@ Binary Output
 
 I believe this to be the same challenge as the qualifier. I probably should've just recorded a video and analyzed it, but I ended up trying to read values by hooking up a lead from the red led control pin to an arduino and reading it's analog values. I got something that resembled some sort of ASCII art pattern, but never the flag.
 
-![Code Red](./images/codered.png)
+![Code Red](./images/code_red.png)
 
 ## Reach Out and Touch Faith - 275 points
 
