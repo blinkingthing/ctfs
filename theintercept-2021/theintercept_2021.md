@@ -132,7 +132,7 @@ while bitcount < framecount:
 
 # Recon
 
-When the boards arrived we decided as a team to follow the rules as we interpreted them and not open the box until the first day of LayerOne. Then we saw some other teams discussing this on LayerOne's discord and we decided to at least open up the box we received and see what the 'device' looked like so we would have a more informed approach for the CTF. 
+When the boards arrived we decided as a team to follow the rules as we interpreted them and not open the box until the first day of LayerOne. Then we saw @datagram and some other teams discussing this on LayerOne's discord and we decided to at least open up the box we received and see what the 'device' looked like so we would have a more informed approach for the CTF. 
 
 We tried to identify as components as possible and then tried to work out the traces on the board to see how things may be connected. We left everything under the epoxy alone and just speculated about those areas.
 
@@ -325,7 +325,7 @@ Opened the file in audacity instead of playing it directly in discord.
 
 Identified fan control pin on ESP32 and soldered a lead to it, then hooked that up to a logic analyzer. 
 
-![Image](./images/fan_analyzer.png)
+![Image](./images/fan_analyzer.jpg)
 
 ![Image](./images/biggestan.png)
 
