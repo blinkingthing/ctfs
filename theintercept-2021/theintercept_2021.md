@@ -70,7 +70,7 @@ Groups of 100.
 
 ![100.png](./images/100.png "100.png")
 
-At this point I thought I might be seeing ASCII art, and @zachhanson94 confirmed that it looked like an image, so I kept at it. Eventually I saw something that looked like the LayerOne logo and I knew we were close. 
+At this point I thought I might be seeing ASCII art, and @devx00 confirmed that it looked like an image, so I kept at it. Eventually I saw something that looked like the LayerOne logo and I knew we were close. 
  
 
 #### The Solve
@@ -649,5 +649,5 @@ Big thanks to @jrozner, @datagram and @jk for putting this CTF together. This wa
 - Don't be afraid to remove the epoxy! We had tried probing different pads on the circuit board by setting up some seriously janky helping hands rigs that barely functioned. It took us a full 24 hours of the CTF before we even attempted to remove some of the epoxy on the board. In retrospect we should've done this earlier so we could've soldered wire leads to the different components we wanted to analyze signals from.
 - Leading zeros. There were multiple challenges where we were presented with binary data that had either too many or too few leading zeros. This was probably a byproduct of our techniques, but either way it's worth it to try adding or removing a zero from your binary data to see if that turns junk data into flags.
 - Priorities / time management. With our team collaborating remotely, but only having one physical device. We needed to focus on gathering a lot of data at the beginning of the CTF so we could have a solid chunk of challenges that remote participants could try and solve while the in-person participants could work on challenges that required physical access to the device. 
- 
+
 [LayerOne](https://www.layerone.org/)
