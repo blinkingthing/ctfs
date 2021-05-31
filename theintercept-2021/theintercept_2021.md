@@ -16,7 +16,7 @@ Most of the team was remote and we utilized a discord server to share info, alth
 
 The Intercept is a hardware Capture the Flag (CTF) event focused on testing your skills in hardware hacking, anti-tamper technologies, reverse engineering, programming, and more! For 2021, LayerOne is a virtual event so the Intercept team have prepared devices to ship out to various teams to compete in the CTF. To qualify, each team needed to solve the following qualifying challenge.
 
-### The Problem
+#### The Problem
 
 The challenge was presented as a zip file download, `layerone-intercept-quals.7z`. Once decompressed, you got the mp4 file `layerone-emitting-diode.mp4`. This was an approximately 25 minute long video with an animated image of a blinking LED. 
 
@@ -73,13 +73,13 @@ Groups of 100.
 At this point I thought I might be seeing ASCII art, and @zachhanson94 confirmed that it looked like an image, so I kept at it. Eventually I saw something that looked like the LayerOne logo and I knew we were close. 
  
 
-### The Solve
+#### The Solve
 
 We ended up landing on 129 rows of 400 characters each. After playing with the font size and color in the terminal, you can clearly see the LayerOne logo and with the flag `flag{s33_n0t_th4t_h4rd}` in ComicSans below. 
 
 ![flag.png](./images/flag.png "flag.png")
 
-### The Code
+#### The Code
 
 ```python
 #!/usr/bin/env python3
@@ -130,7 +130,7 @@ while bitcount < framecount:
     byte =""
 ```
 
-## Recon
+# Recon
 
 When the boards arrived we decided as a team to follow the rules as we interpreted them and not open the box until the first day of LayerOne. Then we saw some other teams discussing this on LayerOne's discord and we decided to at least open up the box we received and see what the 'device' looked like so we would have a more informed approach for the CTF. 
 
@@ -149,7 +149,7 @@ This ended up being a mostly futile effort although it did solidify the understa
 ![lousy_intercept.gif](./images/lousy_intercept.gif "lousy_intercept.gif")
 
 
-## the Main Event
+# the Main Event
 
 Below are the challenges we solved (9 out of a possible 31).
 
@@ -157,7 +157,7 @@ The different challenges were activated by entering specific DIP switch combinat
 
 Most challenges were recorded through audio or video to share with the group, when nothing 'obvious' happened with the device and a particular DIP setting, we moved on and focused on the ones we thought we could handle. 
 
-### You Art Wrong - 25 points
+## You Art Wrong - 25 points
 
 Manually held a wire against pin 41 on the ESP32 on reboot and got the serial output in a terminal
 
@@ -234,7 +234,7 @@ o88888888888888888/'        '''...|OOOO''888888888O.                 `8
 ```
 
 
-### An Encoding More So Than A Challenge - 50 points
+## An Encoding More So Than A Challenge - 50 points
 
 Morse code played out of the piezo buzzer at around 5 WPM. I was able to decode this by ear as I've been learning morse code recently. 
 
@@ -243,7 +243,7 @@ Morse code played out of the piezo buzzer at around 5 WPM. I was able to decode 
 This is what was decoded:
 `flag is s4mu3l is my h0m3b0y`
 
-### Silky Smooth - 50 points
+## Silky Smooth - 50 points
 
 This was the only extremely obvious flag, and the only one that we discovered during our light recon phase. 
 
@@ -252,7 +252,7 @@ This was the only extremely obvious flag, and the only one that we discovered du
 `flag{d0_y0u_ev3n_t4mp3r_br0}`
 
 
-### Throw That Phone Outta My Office - 200 points
+## Throw That Phone Outta My Office - 200 points
 
 Solved by @tensefutur3
 
@@ -284,7 +284,7 @@ Step 6:
 Spend way more time trying to figure out what the reference is. Maybe a meme?
 
 
-### A Challenge More So Than An Encoding - 200 points
+## A Challenge More So Than An Encoding - 200 points
 
 Another morse code challenge, although this one was sped up quite a bit.
 
@@ -298,7 +298,7 @@ The path of the righteous man is beset on all sides by the inequities of the sel
 
 Flag is : `pr3ttyple4s3withsug4ront0p`
 
-### CQD DE MGY - 250 points
+## CQD DE MGY - 250 points
 
 Solved by @babint_
 
@@ -321,7 +321,7 @@ Opened the file in audacity instead of playing it directly in discord.
 `flag{m4yd4y_m4yd4y_s0s!}`
 
 
-### I'm Your Biggest Fan - 300 points
+## I'm Your Biggest Fan - 300 points
 
 Identified fan control pin on ESP32 and soldered a lead to it, then hooked that up to a logic analyzer. 
 
@@ -341,7 +341,7 @@ To ASCII
 flag{BITS_1n_7he_w1nd}
 ```
 
-### Where You From? - 300 points
+## Where You From? - 300 points
 
 [Audio sample](./audio/whereyoufrom.mp3) that sounds like numbers repeating. Zip codes?
 
@@ -451,7 +451,7 @@ THE FLAG IS GANGCAPITALOFTHENATION THE FOLLOWING DIP CODE IS THREE FIVE SEVEN
 This gave us a flag as well as the dip code for the following challenge.
 
 
-### Who Doesn't Like Counting? - 300 points
+## Who Doesn't Like Counting? - 300 points
 
 #### Pre-work Solve "Where You From"
 - solving gave us '357' which translate to 0101100101 and unlocks this challenge. DIP was not given to us in CTFd
@@ -541,17 +541,17 @@ t h e   f l a g   i s   f l a g { c 0 u n t i n g _ i 5 _ f u N }
 flag{c0unting_i5_fuN}
 ```
 
-## FAILS
+# FAILS
 
 There were a handful of challenges we made decent headway on but didn't solve
 
-###  The Point I'm Making With John Lennon - 150
+## The Point I'm Making With John Lennon - 150
 
 We couldn't get a clean enough audio signal to decode the SSTV image. 
 
 ![John Lennon](./images/johnlennon.png)
 
-### Baudacious Beats - 150 points
+## Baudacious Beats - 150 points
 
 We translated [the audio](./audio/baud_beats_take2.mp3) to binary, and tried decoding it as Baudot-Murray Teletype code, but couldn't quite make sense of it.
 
@@ -629,17 +629,17 @@ Binary Output
 1110110001110010100100000010001110001101111101101100111110000001101100110101110010100000010010001001011001111010000001001100000110110111111000001100011100001111111110010011010100010011000010010100000010110000110010110010011011111101111000001101100110111110111110100000010011000001001001110000100000001010011110001001110111101101111110011111100011011101100011001101101110100111110000100100101100110000110100100010011000001110001110001101111100001111001100010111110010101000100000100101110000000100100010010001101111110001111000110111111001111110001100001110001101010100000010000001001011100000110001000011110000000110001101111000111111011110011100001101101100110001001111101100001001100111000001100011011000001101111101110011111011110001101100101010001111100010100010010110110000000100101100000101000011011110001111110111100111000111111011001100010011111011000010011001110000011000110110000010010111011100111110111100011011011111100011111000101000100101101100000001001011000001010000100001010011000111011000111110000011011111001110000111100100100001010001111001001000011111100011100010100110011100011001101100111111111000001100101010001111100000101001000011001000010110000001001111000111000111110110110000011011111000001100000010010101100001100101110100001000110011011101001111110011001101101100011101101111111111111111111000010111011010010001011111110000011010010001001001000011101100011111000001101111100111000011110010010001100001001010000011010011001000100001010110010110001100011111110110111011001111111000011011010000100110111111011111101011000011000001001010110000111000011111111111011001111111111010111001010000001001000000100011001000110111000101010010010111000111111100110111111001111110011010001001011001001110000101111011111101111100001001011101110000111111111111110110111101111111110000111110101010011110001110010010110111110111111000011010011011111011011011011100000000000000
 ```
 
-### Code Red - 150 points
+## Code Red - 150 points
 
 I believe this to be the same challenge as the qualifier. I probably should've just recorded a video and analyzed it, but I ended up trying to read values by hooking up a lead from the red led control pin to an arduino and reading it's analog values. I got something that resembled some sort of ASCII art pattern, but never the flag.
 
 ![Code Red](./images/codered.png)
 
-### Reach Out and Touch Faith - 275 points
+## Reach Out and Touch Faith - 275 points
 
 The red, green, and blue led's on the board flash in different sequences. We translated these to 3 digit binary values that led nowhere. 
 
-#### Afterthoughts
+## Afterthoughts
 
 Big thanks to @jrozner, @datagram and @jk for putting this CTF together. This was a great challenge and we as a team had a lot of fun (and frustration) trying to solve it. We ended up learning about tools and methods we could've used to do better from other teams while debriefing the challenge on LayerOne's discord. Looking forward to the Intercept 2022!
 
