@@ -643,4 +643,11 @@ The red, green, and blue led's on the board flash in different sequences. We tra
 
 Big thanks to @jrozner, @datagram and @jk for putting this CTF together. This was a great challenge and we as a team had a lot of fun (and frustration) trying to solve it. We ended up learning about tools and methods we could've used to do better from other teams while debriefing the challenge on LayerOne's discord. Looking forward to the Intercept 2022!
 
+### Lessons Learned
+
+- Organization is key. Our team didn't have a solid information platform at first. We had information spread across multiple discord channels and google documents. @devx00 spun up a [CTFNote](https://github.com/TFNS/CTFNote) server and this was a gamechanger. It is purpose built for collaborative note sharing for these style of CTFs. Many members of our team hadn't heard of this before and were impressed with how well it worked.
+- Don't be afraid to remove the epoxy! We had tried probing different pads on the circuit board by setting up some seriously janky helping hands rigs that barely functioned. It took us a full 24 hours of the CTF before we even attempted to remove some of the epoxy on the board. In retrospect we should've done this earlier so we could've soldered wire leads to the different components we wanted to analyze signals from.
+- Leading zeros. There were multiple challenges where we were presented with binary data that had either too many or too few leading zeros. This was probably a byproduct of our techniques, but either way it's worth it to try adding or removing a zero from your binary data to see if that turns junk data into flags.
+- Priorities / time management. With our team collaborating remotely, but only having one physical device. We needed to focus on gathering a lot of data at the beginning of the CTF so we could have a solid chunk of challenges that remote participants could try and solve while the in-person participants could work on challenges that required physical access to the device. 
+ 
 [LayerOne](https://www.layerone.org/)
